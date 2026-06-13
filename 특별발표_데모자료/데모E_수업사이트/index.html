@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>신입사원 보고서 작성 기초</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-inner">
+    <div class="brand"><span class="dot"></span> 보고서 작성 기초</div>
+    <nav>
+      <button class="nav-btn active" data-page="home">강좌 소개</button>
+      <button class="nav-btn" data-page="lesson1">1차시</button>
+      <button class="nav-btn" data-page="lesson2">2차시</button>
+      <button class="nav-btn" data-page="lesson3">3차시</button>
+      <button class="nav-btn" data-page="quiz">복습 퀴즈</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 홈 -->
+  <section class="page active" id="home">
+    <div class="hero">
+      <div class="eyebrow">사내 교육 · 신입사원 대상</div>
+      <h1 class="title">신입사원 보고서 작성 기초</h1>
+      <p class="lead">읽는 사람이 빠르게 판단하고 행동하게 만드는 보고서. 3차시 동안 구조 잡기부터 문장 다듬기, 데이터 활용까지 익힙니다.</p>
+      <div class="lesson-grid">
+        <button class="lesson-card" data-page="lesson1">
+          <div class="num">1차시</div>
+          <div class="name">보고서의 구조 잡기</div>
+          <div class="desc">목적·결론·근거·실행 4요소와 두괄식</div>
+        </button>
+        <button class="lesson-card" data-page="lesson2">
+          <div class="num">2차시</div>
+          <div class="name">읽히는 문장 쓰기</div>
+          <div class="desc">한 문장 한 메시지, 간결한 능동 문장</div>
+        </button>
+        <button class="lesson-card" data-page="lesson3">
+          <div class="num">3차시</div>
+          <div class="name">숫자와 표로 설득하기</div>
+          <div class="desc">데이터 근거, 표·그래프, 출처 표기</div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1차시 -->
+  <section class="page" id="lesson1">
+    <div class="eyebrow">1차시</div>
+    <h1 class="title">보고서의 구조 잡기</h1>
+    <div class="card">
+      <div class="meta">대상: 입사 1년 차 이내 신입사원 · 소요 시간: 60분</div>
+      <h2 class="section">학습 목표</h2>
+      <ul class="goals">
+        <li>보고서를 구성하는 네 가지 요소(목적·결론·근거·실행)를 설명할 수 있다.</li>
+        <li>결론을 먼저 제시하는 두괄식으로 보고서의 뼈대를 잡을 수 있다.</li>
+        <li>보고서의 목적에 맞는 구조를 선택할 수 있다.</li>
+      </ul>
+      <h2 class="section">핵심 개념</h2>
+      <div class="concept">
+        <h3>1. 보고서 쓰기의 5단계 흐름</h3>
+        <p>자료 수집 → 구조 잡기 → 초안 작성 → 검토·수정 → 제출. 1차시는 '구조 잡기'에 집중한다. 보고서는 글짓기가 아니라 읽는 사람이 판단하고 행동하도록 돕는 '목적이 있는 문서'다.</p>
+      </div>
+      <div class="concept">
+        <h3>2. 보고서의 4가지 구성 요소</h3>
+        <p>목적은 왜 쓰는가, 결론은 무엇을 말하려는가, 근거는 결론을 뒷받침하는 사실과 데이터, 실행은 읽는 사람이 무엇을 하면 되는가에 답한다.</p>
+      </div>
+      <div class="concept">
+        <h3>3. 두괄식 — 결론을 먼저</h3>
+        <p>바쁜 의사결정자는 첫 문단에서 결론을 찾는다. 결론을 맨 앞에 두고 근거를 뒤에 배치한다.</p>
+      </div>
+      <h2 class="section">수업 활동</h2>
+      <table>
+        <tr><th>순서</th><th>활동</th><th>시간</th></tr>
+        <tr><td>1</td><td>아이스브레이킹 — 최근에 쓴 보고서 떠올리기</td><td>5분</td></tr>
+        <tr><td>2</td><td>강의 — 4가지 구성 요소와 두괄식</td><td>25분</td></tr>
+        <tr><td>3</td><td>조별 실습 — 나쁜 예시 보고서를 4요소 구조로 고쳐쓰기</td><td>20분</td></tr>
+        <tr><td>4</td><td>조별 공유 및 질의응답</td><td>10분</td></tr>
+      </table>
+      <div class="pager">
+        <button class="ghost" data-page="home">← 강좌 소개</button>
+        <button data-page="lesson2">2차시 →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2차시 -->
+  <section class="page" id="lesson2">
+    <div class="eyebrow">2차시</div>
+    <h1 class="title">읽히는 문장 쓰기</h1>
+    <div class="card">
+      <div class="meta">대상: 입사 1년 차 이내 신입사원 · 소요 시간: 60분</div>
+      <h2 class="section">학습 목표</h2>
+      <ul class="goals">
+        <li>한 문장에 하나의 메시지만 담아 쓸 수 있다.</li>
+        <li>수동태와 군더더기를 덜어 간결한 문장으로 고칠 수 있다.</li>
+        <li>문단의 핵심 문장을 맨 앞에 배치할 수 있다.</li>
+      </ul>
+      <h2 class="section">핵심 개념</h2>
+      <div class="concept">
+        <h3>1. 한 문장, 하나의 메시지</h3>
+        <p>한 문장에 여러 메시지를 욱여넣으면 핵심을 놓친다. 메시지가 둘이면 문장을 둘로 나눈다.</p>
+      </div>
+      <div class="concept">
+        <h3>2. 짧고 능동적으로</h3>
+        <p>"검토가 진행되었다"보다 "팀장이 검토했다"가 분명하다. 수동태를 능동태로 바꾸고 군더더기를 덜어낸다.</p>
+      </div>
+      <div class="concept">
+        <h3>3. 핵심 문장을 문단 맨 앞에</h3>
+        <p>문단도 두괄식으로 쓴다. 각 문단의 첫 문장에 결론을 두고, 나머지 문장으로 뒷받침한다.</p>
+      </div>
+      <h2 class="section">수업 활동</h2>
+      <table>
+        <tr><th>순서</th><th>활동</th><th>시간</th></tr>
+        <tr><td>1</td><td>복습 — 1차시 4요소 구조 되짚기</td><td>5분</td></tr>
+        <tr><td>2</td><td>강의 — 한 문장 한 메시지, 능동태, 문단 두괄식</td><td>25분</td></tr>
+        <tr><td>3</td><td>개인 실습 — 군더더기 문장 10개 고쳐쓰기</td><td>20분</td></tr>
+        <tr><td>4</td><td>짝과 비교 및 질의응답</td><td>10분</td></tr>
+      </table>
+      <div class="pager">
+        <button class="ghost" data-page="lesson1">← 1차시</button>
+        <button data-page="lesson3">3차시 →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3차시 -->
+  <section class="page" id="lesson3">
+    <div class="eyebrow">3차시</div>
+    <h1 class="title">숫자와 표로 설득하기</h1>
+    <div class="card">
+      <div class="meta">대상: 입사 1년 차 이내 신입사원 · 소요 시간: 60분</div>
+      <h2 class="section">학습 목표</h2>
+      <ul class="goals">
+        <li>주장을 데이터로 뒷받침할 수 있다.</li>
+        <li>상황에 맞게 표와 그래프를 골라 쓸 수 있다.</li>
+        <li>데이터의 출처와 기준을 분명히 밝힐 수 있다.</li>
+      </ul>
+      <h2 class="section">핵심 개념</h2>
+      <div class="concept">
+        <h3>1. 숫자는 주장을 근거로 바꾼다</h3>
+        <p>"매출이 많이 늘었다"는 의견이지만 "매출이 전월 대비 18% 늘었다"는 근거다. 4요소 중 '근거' 자리를 숫자로 채운다.</p>
+      </div>
+      <div class="concept">
+        <h3>2. 표와 그래프, 언제 무엇을</h3>
+        <p>정확한 값을 비교하면 표, 흐름과 추세를 보여주면 그래프를 쓴다. 그래프 한 장에는 메시지 하나만 담는다.</p>
+      </div>
+      <div class="concept">
+        <h3>3. 출처와 기준 밝히기</h3>
+        <p>모든 숫자에 출처와 집계 기준(기간·대상·단위)을 함께 적는다. 출처 없는 숫자는 신뢰받지 못한다.</p>
+      </div>
+      <h2 class="section">수업 활동</h2>
+      <table>
+        <tr><th>순서</th><th>활동</th><th>시간</th></tr>
+        <tr><td>1</td><td>복습 — 2차시 문장 원칙 되짚기</td><td>5분</td></tr>
+        <tr><td>2</td><td>강의 — 데이터 근거, 표·그래프 선택, 출처 표기</td><td>25분</td></tr>
+        <tr><td>3</td><td>조별 실습 — 주어진 데이터로 표와 그래프 만들기</td><td>20분</td></tr>
+        <tr><td>4</td><td>조별 공유 및 강좌 마무리</td><td>10분</td></tr>
+      </table>
+      <div class="pager">
+        <button class="ghost" data-page="lesson2">← 2차시</button>
+        <button data-page="quiz">복습 퀴즈 풀기 →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 복습 퀴즈 -->
+  <section class="page" id="quiz">
+    <div class="eyebrow">복습 퀴즈</div>
+    <h1 class="title">1차시 복습 퀴즈</h1>
+    <p class="lead">보고서의 구조 잡기, 핵심 개념을 잘 기억하고 있는지 확인해 보세요.</p>
+    <div class="quiz-box">
+      <div class="quiz-bar"><div id="quizBar"></div></div>
+      <div class="quiz-body" id="quizBody"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  신입사원 보고서 작성 기초 · 사내 교육 자료 — 클로드 활용 발표 데모 E 산출물
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
